@@ -1,0 +1,3 @@
+filter ($user: User, $session: Session) on OauthCode [
+  where userId == $user.id
+]
